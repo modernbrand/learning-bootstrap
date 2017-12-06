@@ -12,34 +12,138 @@
     <link rel="stylesheet" href="/Users/bradfordkachelhofer/Documents/Covalence Class Learning/learning-bootstrap/css/styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/xpk7gvr.css">
     <title>Bootstrap Fun</title>
+   <script src="scripts.js"></script>
+
+
 </head>
 
 <body>
-    <
+    <div class="container">
+        <div id="friendDiv"></div>
+            
+        <button onclick="showAlert()">Click here to show message!</button>
+        <button onclick="showFriend()">Show Friend</button>
 
-        <div class="row">
-                <div class="col-sm-4">
-                  <div class="card">
+        <button onclick="dogInfo()">Dog's Name</button>
+
+        <button onclick="addFriend()">Add Friends</button>
+
+
+    </div>
+
+
+
+
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Experience</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Work</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+        </li>
+    </ul>
+    </div>
+    <!-- hello 2 boxes -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <div class="card">
                     <div class="card-body-left">
-                      <h1 class="card-title-left">Hello</h1>
-                      <p class="card-text-left">Brad Kachelhofer<br>
-                    The Modern Brand Co.<br>
-                established 2007</p>
+                        <h1 class="card-title-left">Hello</h1>
+                        <p class="card-text-left">Brad Kachelhofer
+                            <br> The Modern Brand Co.
+                            <br> established 2007</p>
                     </div>
-                  </div>
                 </div>
-                </div>
-
-                <div class="row">
-                <div class="col-sm-6">
-                  <div class="card">
+            </div>
+            <div class="col-4">
+                <div class="card">
                     <div class="card-body-right">
-                      <p class="card-text-right">I want something new, fresh, and modern. Update everything. Make it look amazing. I have a huge budget of $100.</p>
+                        <p class="card-text-right">I want something new, fresh, and modern. Update everything. Make it look amazing. I have a huge budget
+                            of $100.</p>
                     </div>
-                  </div>
                 </div>
-              </div>
+            </div>
+        </div>
 
+    </div>
+    </div>
+    <!-- text blocks -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                text that will be the paragraph with line
+            </div>
+            <div class="col">
+                text that will be the paragraph with line
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                text that will be the paragraph with line
+            </div>
+            <div class="col">
+                text that will be the paragraph with line
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            text that will be the paragraph with line </div>
+        <div class="col">
+            text that will be the paragraph with line </div>
+        <div class="col">
+            photo 1
+        </div>
+        <div class="col">
+            photo 2
+        </div>
+        <div class="col">
+            photo 3
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            photo 4
+        </div>
+        <div class="col">
+            photo 5
+        </div>
+        <div class="col">
+            photo 6
+        </div>
+        <div class="col">
+            photo 7
+        </div>
+        <div class="col">
+            photo 8
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            1 of 3
+        </div>
+        <div class="col">
+            2 of 3
+        </div>
+        <div class="col">
+            3 of 3
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+
+        </div>
+    </div>
+    </div>
     <div class="container col-md-8">
         <div class="row">
             <div class="col-sm text-center">
@@ -50,40 +154,40 @@
                     <br>brad@themodernbrand.com</p>
             </div>
         </div>
-   
 
-    <form>
-        <div class="row">
-            <div class="form-group col-sm">
-                <label for="inputPassword4">your email</label>
-                <input type="email" class="form-control" id="bkinsert" placeholder="your email">
-            </div>
-            <div class="form-group col-sm">
-                <label for="inputPassword4">your name</label>
-                <input type="password" class="form-control" id="bkinsert" placeholder="your name">
-            </div>
-        </div>
 
-        <div class="form-group">
-            <label for="inputAddress">your company</label>
-            <input type="text" class="form-control" id="bkinsert" placeholder="your company">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">your marketing challenge</label>
-            <textarea class="form-control" id="bkinsert" rows="3" placeholder="tell me what's happening"></textarea>
-                  </div>
-            
-             
+        <form>
+            <div class="row">
+                <div class="form-group col-sm">
+                    <label for="inputPassword4">your email</label>
+                    <input type="email" class="form-control" id="bkinsert" placeholder="your email">
+                </div>
+                <div class="form-group col-sm">
+                    <label for="inputPassword4">your name</label>
+                    <input type="name" class="form-control" id="bkinsert" placeholder="your name">
+                </div>
+            </div>
+
             <div class="form-group">
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox"> Yes, I do have a budget!
-                </label>
-              </div>
+                <label for="inputAddress">your company</label>
+                <input type="text" class="form-control" id="bkinsert" placeholder="your company">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">your marketing challenge</label>
+                <textarea class="form-control" id="bkinsert" rows="3" placeholder="tell me what's happening"></textarea>
+            </div>
+
+
+            <div class="form-group">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox"> Yes, I do have a budget!
+                    </label>
+                </div>
             </div>
             <button type="submit" class="btn btn-primary float-right" id="mybtn">Send</button>
-          </form>
-        </div>
+        </form>
+    </div>
     </div>
     </div>
 
