@@ -16,10 +16,17 @@ h2 {
     color: gray;
     font-style: italic;
 }
+
+#MB-logo {
+    border: 0px;
+    float: left;
+}
+
 .card-body-left {
     text-align: right;
     border-bottom: 0px;
-    background-color: lightgray;
+    background-color: rgb(245, 238, 238);
+    margin-right: 10px;
 }
 .card-title-left {
     text-align: right;
