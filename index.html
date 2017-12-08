@@ -12,33 +12,36 @@
     <link rel="stylesheet" href="/Users/bradfordkachelhofer/Documents/Covalence Class Learning/learning-bootstrap/css/styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/xpk7gvr.css">
     <title>Bootstrap Fun</title>
-    <script src="scripts.js"></script>
 
 
 </head>
 
 <body>
-    <div class="container">
+    <div class="buttonHolder">
         <div id="friendDiv"></div>
-
         <button onclick="showAlert()">Click here to show message!</button>
         <button onclick="showFriend()">Show Friend</button>
-
         <button onclick="dogInfo()">Dog's Name</button>
-
         <button onclick="addFriend()">Add Friends</button>
-
-
-    </div>
-
-    <div class="container">
-        <div class="col-4">
-            <img src="/Users/bradfordkachelhofer/Documents/Covalence Class Learning/learning-bootstrap/images/TMB_M10dern.png" alt="Modern-ten-logo"
-                class="img-thumbnail" id="MB-logo">
+        <button id="btn">Click Me!</button>
+        <div id="unique"></div>
+        <button onclick="addColorfulFriends()">Add Colorful Friends</button>
+        <div class="contentContainer" id="friendDiv"></div>
+        <div class="contentContainer" id="jqueryDiv"></div>
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+      
+        <script src="jquery.js"></script>
         </div>
+
+        </div>
+
     </div>
 
-    <ul class="nav justify-content-end">
+
+    <ul class="nav-justify-content-end">
         <li class="nav-item">
             <a class="nav-link active" href="#">About</a>
         </li>
@@ -53,10 +56,18 @@
         </li>
     </ul>
     </div>
+
+    <div class="container">
+        <div class="col-4">
+            <img src="/Users/bradfordkachelhofer/Documents/Covalence Class Learning/learning-bootstrap/images/TMB_M10dern.png" alt="Modern-ten-logo"
+                class="img-thumbnail" id="MB-logo">
+        </div>
+    </div>
+
     <!-- hello 2 boxes -->
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-4">
+            <div class="col-6">
                 <div class="card">
                     <div class="card-body-left">
                         <h1 class="card-title-left">Hello</h1>
@@ -66,7 +77,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-6">
                 <div class="card">
                     <div class="card-body-right">
                         <p class="card-text-right">I want something new, fresh, and modern. Update everything. Make it look amazing. I have a huge budget
@@ -199,6 +210,8 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+
 </body>
 
 </html>

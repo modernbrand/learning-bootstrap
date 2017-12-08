@@ -26,7 +26,7 @@ h2 {
     text-align: right;
     border-bottom: 0px;
     background-color: rgb(245, 238, 238);
-    margin-right: 10px;
+    padding-right: 10px;
 }
 .card-title-left {
     text-align: right;
@@ -38,4 +38,7 @@ h2 {
 .card-body-right {
     padding: 1.5em;
     text-size: 3em;
+}
+.nav-link {
+    color: black
 }
